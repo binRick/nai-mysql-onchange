@@ -11,7 +11,7 @@ self.init = function( initConfig, callback ){
 		self._connection = mysql.createConnection({
 			host: self._initConfig.host || "localhost",
 			user: self._initConfig.user || "root",
-			port: self._initConfig.user || 3306,
+			port: self._initConfig.port || 3306,
 			password: self._initConfig.password || "",
 			database: self._initConfig.database || ""
 		});
